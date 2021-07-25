@@ -244,22 +244,22 @@ return [
                     // 'label'       => 4,
                     // 'label_color' => 'success',
                 ],
-                [
-                    'text'        => 'HR Dashboard',
-                    'url'         => 'hr-dashboard',
-                    'icon'        => 'fas fa-fw fa-chart-bar',
-                    'can'          => 'dashboard'
-                    // 'label'       => 4,
-                    // 'label_color' => 'success',
-                ],
-                  [
-                    'text'        => 'KPI Dashboard',
-                    'url'         => 'kpi-dashboard',
-                    'icon'        => 'fas fa-fw fa-chart-bar',
-                    'can'          => 'dashboard'
-                    // 'label'       => 4,
-                    // 'label_color' => 'success',
-                ],
+                // [
+                //     'text'        => 'HR Dashboard',
+                //     'url'         => 'hr-dashboard',
+                //     'icon'        => 'fas fa-fw fa-chart-bar',
+                //     'can'          => 'dashboard'
+                //     // 'label'       => 4,
+                //     // 'label_color' => 'success',
+                // ],
+                //   [
+                //     'text'        => 'KPI Dashboard',
+                //     'url'         => 'kpi-dashboard',
+                //     'icon'        => 'fas fa-fw fa-chart-bar',
+                //     'can'          => 'dashboard'
+                //     // 'label'       => 4,
+                //     // 'label_color' => 'success',
+                // ],
              ]
         ],
         [
@@ -273,24 +273,24 @@ return [
                     'icon' => 'fas fa-fw fa-user',
                     'can'  => 'employee-list'
                 ], 
-                [
-                    'text' => 'Assign Group',
-                    'url'  => 'groups',
-                    'icon' => 'fas fa-fw fa-users',
-                    'can'  => 'employee-list'
-                ],
-                [
-                    'text' => 'Notice Board',
-                    'url'  => 'notice_board',
-                    'icon' => 'fas fa-clipboard',
-                ],
+                // [
+                //     'text' => 'Assign Group',
+                //     'url'  => 'groups',
+                //     'icon' => 'fas fa-fw fa-users',
+                //     'can'  => 'employee-list'
+                // ],
+                // [
+                //     'text' => 'Notice Board',
+                //     'url'  => 'notice_board',
+                //     'icon' => 'fas fa-clipboard',
+                // ],
 
-                 [
-                    'text' => 'RO',
-                    'url'  => 'ro',
-                    'icon' => 'fas fa-fw fa-users',
-                    'can'  => 'ro-list'
-                ] 
+                //  [
+                //     'text' => 'RO',
+                //     'url'  => 'ro',
+                //     'icon' => 'fas fa-fw fa-users',
+                //     'can'  => 'ro-list'
+                // ] 
             ]
         ],       
         
@@ -299,116 +299,106 @@ return [
         //     'url'  => 'admin/settings',
         //     'icon' => 'fas fa-fw fa-lock',
         // ],
-        [
-            'text'    => 'Attendance',
-            'icon'    => 'fa fa-business-time',
-            'submenu' => [
+        // [
+        //     'text'    => 'Attendance',
+        //     'icon'    => 'fa fa-business-time',
+        //     'submenu' => [
                 
-                [
-                    'text' => 'Make Attendance',
-                    'url'  => 'attendance',
-                    'icon' => 'fa fa-clock',
-                ],
-                // [
-                //     'text' => 'Actual Time In',
-                //     'url'  => 'actual_timein',
-                //     'icon' => 'fa fa-clock',
-                // ],
-                // [
-                //     'text' => 'Late Arrival',
-                //     'url'  => 'late_arrival',
-                //     'icon' => 'fa fa-clock',
-                // ],
-                [
-                    'text' => 'Leave Application',
-                    'url'  => 'leave_application',
-                    'icon' => 'fa fa-cubes',
-                ],
-                  [
-                    'text' => 'Day Off',
-                    'url'  => 'offday',
-                    'icon' => 'fas fa-fw fa-calendar-alt',
-                    'can'  => 'offday-list'
-                ],
-                  [
-                    'text' => 'Overtime',
-                    'url'  => 'overtime',
-                    'icon' => 'fa fa-clock',
-                ],
-            ],
-        ],
-         [
-            'text'    => 'Performance',
-            'icon'    => 'fa fa-award',
-            'submenu' => [
-                [
-                    'text' => 'Award',
-                    'url'  => 'award',
-                    'icon' => 'fas fa-award',
-                ],
-                  [
-                    'text' => 'KPI',
-                    'url'  => 'kpi',
-                    'icon' => 'fas fa-trophy',
-                ],
-            ],
-        ],
+        //         [
+        //             'text' => 'Make Attendance',
+        //             'url'  => 'attendance',
+        //             'icon' => 'fa fa-clock',
+        //         ],
+        //         // [
+        //         //     'text' => 'Actual Time In',
+        //         //     'url'  => 'actual_timein',
+        //         //     'icon' => 'fa fa-clock',
+        //         // ],
+        //         // [
+        //         //     'text' => 'Late Arrival',
+        //         //     'url'  => 'late_arrival',
+        //         //     'icon' => 'fa fa-clock',
+        //         // ],
+        //         [
+        //             'text' => 'Leave Application',
+        //             'url'  => 'leave_application',
+        //             'icon' => 'fa fa-cubes',
+        //         ],
+        //           [
+        //             'text' => 'Day Off',
+        //             'url'  => 'offday',
+        //             'icon' => 'fas fa-fw fa-calendar-alt',
+        //             'can'  => 'offday-list'
+        //         ],
+        //           [
+        //             'text' => 'Overtime',
+        //             'url'  => 'overtime',
+        //             'icon' => 'fa fa-clock',
+        //         ],
+        //     ],
+        // ],
+        //  [
+        //     'text'    => 'Performance',
+        //     'icon'    => 'fa fa-award',
+        //     'submenu' => [
+        //         [
+        //             'text' => 'Award',
+        //             'url'  => 'award',
+        //             'icon' => 'fas fa-award',
+        //         ],
+        //           [
+        //             'text' => 'KPI',
+        //             'url'  => 'kpi',
+        //             'icon' => 'fas fa-trophy',
+        //         ],
+        //     ],
+        // ],
 
-        [
-            'text'    => 'Training',
-            'icon'    => 'fa fa-business-time',
-            'submenu' => [
+        // [
+        //     'text'    => 'Training',
+        //     'icon'    => 'fa fa-business-time',
+        //     'submenu' => [
                 
-                [
-                    'text' => 'Training',
-                    'url'  => 'training',
-                    'icon' => 'fa fa-university',
-                    'can'  => 'training-list'
-                ],
+        //         [
+        //             'text' => 'Training',
+        //             'url'  => 'training',
+        //             'icon' => 'fa fa-university',
+        //             'can'  => 'training-list'
+        //         ],
 
-                 [
-                    'text' => 'Training Employee',
-                    'url'  => 'training_emp',
-                    'icon' => 'fa fa-users',
-                    'can'  => 'trainingemployee-list'
-                ],
+        //          [
+        //             'text' => 'Training Employee',
+        //             'url'  => 'training_emp',
+        //             'icon' => 'fa fa-users',
+        //             'can'  => 'trainingemployee-list'
+        //         ],
 
-                 [
-                    'text' => 'Training Attendance',
-                    'url'  => 'training_attendance',
-                    'icon' => 'fa fa-transgender-alt',
-                    'can'  => 'trainingattendance-list'
-                ],
+        //          [
+        //             'text' => 'Training Attendance',
+        //             'url'  => 'training_attendance',
+        //             'icon' => 'fa fa-transgender-alt',
+        //             'can'  => 'trainingattendance-list'
+        //         ],
 
-                 [
-                    'text' => 'Test Result',
-                    'url'  => 'test_result',
-                    'icon' => 'fa fa-list-alt',
-                    'can'  => 'testresult-list'
-                ],
+        //          [
+        //             'text' => 'Test Result',
+        //             'url'  => 'test_result',
+        //             'icon' => 'fa fa-list-alt',
+        //             'can'  => 'testresult-list'
+        //         ],
                
-            ],
-        ],
+        //     ],
+        // ],
         
         [
             'text'    => 'Hostel Management',
             'icon'    => 'fas fa-fw fa-bed',
             'can' => 'hostel-list',
             'submenu' => [
-                    [
-                                'text' => 'Hostel',
-                                'url' => 'hostel',
-                                'icon' => 'fa fa-home',
-                                'can'  => 'hostel-list'
-                    ],
+                    
                      
 
-                     [
-                                'text' => 'Room',
-                                'url' => 'room',
-                                'icon' => 'fa fa-th-large',
-                                'can'  => 'room-list'
-                    ],
+                    
                       [
                                 'text' => 'Hostel Employee',
                                 'url' => 'hostelemployee',
@@ -424,38 +414,38 @@ return [
                 ]
         ],
 
-        [
-            'text'    => 'Payroll Management',
-            'icon'    => 'fas fa-fw fa-money-check-alt',
-            'can' => 'salary-list',
-            'submenu' => [
-                [
-                            'text' => 'Salary',
-                            'url' => 'salary',
-                            'icon' => 'fa fa-credit-card',
-                            'can'  => 'salary-list'
-                ]
-            ]
-        ],
-        [
-            'text'    => 'Recruitment',
-            'icon'    => 'fas fa-fw fa-briefcase',
-            'can' => 'job-list',
-            'submenu' => [
-                [
-                    'text' => 'Job Openings',
-                    'url' => 'jobopening',
-                    'icon' => 'fa fa-briefcase',
-                    'can'  => 'jobopen-list'
-                ],
-                [
-                            'text' => 'Job Applications',
-                            'url' => 'jobapplication',
-                            'icon' => 'fa fa-list-alt',
-                            'can'  => 'job-list'
-                ]
-            ]
-        ],
+        // [
+        //     'text'    => 'Payroll Management',
+        //     'icon'    => 'fas fa-fw fa-money-check-alt',
+        //     'can' => 'salary-list',
+        //     'submenu' => [
+        //         [
+        //                     'text' => 'Salary',
+        //                     'url' => 'salary',
+        //                     'icon' => 'fa fa-credit-card',
+        //                     'can'  => 'salary-list'
+        //         ]
+        //     ]
+        // ],
+        // [
+        //     'text'    => 'Recruitment',
+        //     'icon'    => 'fas fa-fw fa-briefcase',
+        //     'can' => 'job-list',
+        //     'submenu' => [
+        //         [
+        //             'text' => 'Job Openings',
+        //             'url' => 'jobopening',
+        //             'icon' => 'fa fa-briefcase',
+        //             'can'  => 'jobopen-list'
+        //         ],
+        //         [
+        //                     'text' => 'Job Applications',
+        //                     'url' => 'jobapplication',
+        //                     'icon' => 'fa fa-list-alt',
+        //                     'can'  => 'job-list'
+        //         ]
+        //     ]
+        // ],
         [
             'text'    => 'MASTER DATA',
             'icon'    => 'fas fa-fw fa-table',
@@ -468,39 +458,51 @@ return [
                         'can'  => 'branch-list'
                     ],
                     [
-                                'text' => 'Department',
-                                'url'  => 'department',
-                                'icon' => 'fa fa-building',
-                                'can'  => 'department-list'
+                                'text' => 'Hostel',
+                                'url' => 'hostel',
+                                'icon' => 'fa fa-home',
+                                'can'  => 'hostel-list'
                     ],
-                    [
-                                'text' => 'Position',
-                                'url'  => 'position',
-                                'icon' => 'fa fa-sitemap',
-                                'can'  => 'rank-list'
-                     ],
                      [
-                                'text' => 'NRC Code',
-                                'url'  => 'nrccode',
-                                'icon' => 'fas fa-id-card-alt',
-                                'can'  => 'nrc-code-list'
-                     ],
-                     [
-                                'text' => 'NRC State',
-                                'url'  => 'nrcstate',
-                                'icon' => 'fa fa-id-card',
-                                'can'  => 'nrc-state-list'
-                     ],
-                     [
-                                'text' => 'Leave Type',
-                                'url'  => 'leave_type',
-                                'icon' => 'fa fa-location-arrow',
-                     ],
-                     [
-                                'text' => 'Organization Chart',
-                                'url'  => 'organization-chart',
-                                'icon' => 'fa fa-tree',
-                     ],
+                                'text' => 'Room',
+                                'url' => 'room',
+                                'icon' => 'fa fa-th-large',
+                                'can'  => 'room-list'
+                    ],
+                    // [
+                    //             'text' => 'Department',
+                    //             'url'  => 'department',
+                    //             'icon' => 'fa fa-building',
+                    //             'can'  => 'department-list'
+                    // ],
+                    // [
+                    //             'text' => 'Position',
+                    //             'url'  => 'position',
+                    //             'icon' => 'fa fa-sitemap',
+                    //             'can'  => 'rank-list'
+                    //  ],
+                    //  [
+                    //             'text' => 'NRC Code',
+                    //             'url'  => 'nrccode',
+                    //             'icon' => 'fas fa-id-card-alt',
+                    //             'can'  => 'nrc-code-list'
+                    //  ],
+                    //  [
+                    //             'text' => 'NRC State',
+                    //             'url'  => 'nrcstate',
+                    //             'icon' => 'fa fa-id-card',
+                    //             'can'  => 'nrc-state-list'
+                    //  ],
+                    //  [
+                    //             'text' => 'Leave Type',
+                    //             'url'  => 'leave_type',
+                    //             'icon' => 'fa fa-location-arrow',
+                    //  ],
+                    //  [
+                    //             'text' => 'Organization Chart',
+                    //             'url'  => 'organization-chart',
+                    //             'icon' => 'fa fa-tree',
+                    //  ],
                 ]
         ],
         [
